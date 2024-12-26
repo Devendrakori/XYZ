@@ -41,6 +41,11 @@ public class Client {
 		
 		
 		
+		
+		
+		
+		
+		
 		Projection p1 = Projections.property("name");
 		Projection p2 = Projections.property("pname");
 		Projection p3 = Projections.property("age");
