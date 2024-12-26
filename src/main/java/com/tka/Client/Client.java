@@ -23,6 +23,7 @@ public class Client {
 		cfg.addAnnotatedClass(Candidate.class);
 		SessionFactory factory = cfg.buildSessionFactory();
 		Session session = factory.openSession();
+		System.out.println("Hello");
 //		Candidate candidate = session.load(Candidate.class, 101);
 //		System.out.println(candidate);
 //		List<Candidate> list = session.createQuery("from Candidate", Candidate.class).list();
